@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS 103-Applications Development and Emerging Technologies</title>
+    <meta property="og:title" content="Soft UI Pro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #dadad2;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="header-header">
+          <nav class="header-nav">
+            <div class="header-container">
+              <p class="header-navlink Large">
+                CS 103-Application Development Web Page
+              </p>
+              <div class="header-menu">
+                <a href="index.html" class="header-link Large"><b>Home</b></a>
+                <a href="profile.html" class="header-navlink1">Modules</a>
+                <a href="coming-soon.html" class="header-navlink2">
+                  Course Outline
+                </a>
+              </div>
+              <div class="header-container1">
+                <div class="header-container2">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button ButtonSmall"
+                    >
+                      <a href="frontpage.html"><span>Logout</span></a>
+                    </button>
+                  </div>
+                </div>
+                <div data-role="BurgerMenu" class="header-burger-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon">
+                    <path
+                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div data-role="MobileMenu" class="header-mobile-menu">
+            <div class="header-top">
+              <a href="index.html" class="header-navlink3 Large">
+                CS 103-Application Development Web Page
+              </a>
+              <div data-role="CloseMobileMenu" class="header-close-menu">
+                <svg viewBox="0 0 1024 1024" class="header-icon2">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="header-mid">
+              <div class="header-menu1">
+                <a href="index.html" class="header-navlink4 Large">Home</a>
+                <a href="profile.html" class="header-navlink5 Large">Modules</a>
+                <a href="coming-soon.html" class="header-navlink6 Large">
+                  Course Outline
+                </a>
+              </div>
+            </div>
+            <div class="header-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button ButtonSmall">
+                  <a href="frontpage.html"><span>Logout</span></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="home-hero">
+          <div class="home-container01">
+            <div class="home-card">
+              <img src="nl.png" alt="NLPSC Logo" class="school-logo">
+              <h1 class="home-text HeadingOne">North Luzon Philippines State College</h1>
+              <p class="adal"><b><i><font color="purple">Adal a </font> <font color="#ddec05">dekalidad, dur-as </font>
+                <font color="green">ti panagbiag</b> </font> </i></p> 
+                <p class="adalText"><i>Education of quality, progress of life</i></p>
+              <span class="home-text02 Lead">
+              </span>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <img src="nlpcs front.jpg" alt="" class="home-image">
+        <section class="home-features">
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/playground_assets/cube1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>NLPSC MISSION</span></h5>
+            <span class="feature-card-text1">
+              <span>NLPSC is committed to educate diverse learners who will become responsible 
+                leaders in a culturally oriented community through affordable and quality education 
+                in harmony with technology-based instruction, research and extension.</span>
+            </span>
+          </div>
+         
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/playground_assets/rocket1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>NLPSC VISSION</span></h5>
+            <span class="feature-card-text1">
+              <span>To Produce quality human resources for globa competitveness.</span>
+            </span>
+          </div>
+          
+        <section class="home-container04">
+          <div class="school-location">
+            <center><font color="black"><h1>School Location</h1></center>
+            <center><p>San Nicolas, Candon City, Ilocos Sur</p></font></center>
+           <center><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.509805784238!2d120.43667280297646!3d17.194040522472584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338e19f6173dd6cf%3A0xcaf795eead4117b9!2sNorth%20Luzon%20Philippines%20State%20College!5e0!3m2!1sen!2sph!4v1670908543159!5m2!1sen!2sph"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy=
+            "no-referrer-when-downgrade"></iframe></p></center> 
+            <br>
+          </div>
+          <div class="home-container05">
+            <img src="comsci.png" alt="" class="csLogo">
+            <p class="department"><b>COMPUTER SCIENCE DEPARTMENT</b></p>
+            <p class="subject"><b>CS 103-Applications Development and Emerging Technologies</b></p>
+            <br><br><br>
+            <h1 class="home-text05 HeadingOne"> 
+              <span class="home-text06">Course Overview </span>
+            </h1>
+
+          </div>
+          <div class="home-container06">
+            <div class="home-container07">
+              <img src="image1.jpg" alt="" class="home-image01">
+              <span class="home-text09 Small">
+                <span class="home-text10">
+                  "“The advance of technology is based on 
+                  making it fit in so that you don't really 
+                  even notice it, so it's part of everyday life.”"
+                </span>
+                <br />
+                <span class="home-text12">-Bill Gates, Co-founder of Microsoft</span>
+              </span>
+              <div class="home-container08">
+                <img src="image2.jpg" alt="" class="home-image02">
+              </div>
+            </div>
+            <div class="home-container09">
+              <img src="image3.jpg" alt="" class="home-image03">
+              <div class="home-container10">
+                
+                <p>
+                  <br />
+                  <span class="home-text16">
+                    At present, there are plethora of high-tech technologies along with software 
+                    accessible which outline the certain way we all lead our lives. In your career as future 
+                    <b>technology pacesetter</b>, you are likely to deal with much bigger and more complex 
+                    computing systems. In view of that, we have to start somewhere, so in this module we 
+                    will look at the big picture. 
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span class="home-text19">
+                  This course <b> Applications Development and Emerging Technologies </b>
+                  focuses on the development of applications using web, mobile, and emerging 
+                  technologies with emphasis on requirements management, interface design, usability, 
+                  testing, deployment, including ethical and legal considerations. 
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                 
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <div class="home-container11">
+            <div class="home-container12">
+              <div class="home-container13">
+                <h2 class="home-text23 HeadingOne">Course Description:
+                </h2>
+               
+                <p class="home-text26 Body">
+                  <span class="home-text27">
+                    This course Applications Development and Emerging Technologies focuses on the development 
+                    of software applications using web, mobile, and emerging technologies, with emphasis 
+                    requirements management, interface design principles, usability, testing and deployment. 
+                    Moreover, the course covers the ethical and legal considerations of applications development.
+
+                  </span>
+                </p>
+                
+              </div>
+            </div>
+            <div class="home-logos">
+              <div class="home-container17">
+                <div class="home-container18">
+                  <h1 class="gallery-text">Course Gallery</h1>
+                  
+                </div>
+
+                <img src="image4.jpeg" alt="" class="gallery1"> 
+                <img src="image5.jpeg" alt="" class="gallery2"> 
+                <img src="image6.jpeg" alt="" class="gallery3"> 
+                <img src="image7.jpeg" alt="" class="gallery4"> 
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/bottom.svg"
+            class="home-bottom-wave-image"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="home-image15"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/top.svg"
+            class="home-top-wave-image"
+          />
+        </section>
+        <section class="home-contaier">
+          <div class="home-container29">
+            <div class="home-container30">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M363.722 722.052l41.298-57.816-45.254-45.256-57.818 41.296c-10.722-5.994-22.204-10.774-34.266-14.192l-11.682-70.084h-64l-11.68 70.086c-12.062 3.418-23.544 8.198-34.266 14.192l-57.818-41.298-45.256 45.256 41.298 57.816c-5.994 10.72-10.774 22.206-14.192 34.266l-70.086 11.682v64l70.086 11.682c3.418 12.060 8.198 23.544 14.192 34.266l-41.298 57.816 45.254 45.256 57.818-41.296c10.722 5.994 22.204 10.774 34.266 14.192l11.682 70.084h64l11.68-70.086c12.062-3.418 23.544-8.198 34.266-14.192l57.818 41.296 45.254-45.256-41.298-57.816c5.994-10.72 10.774-22.206 14.192-34.266l70.088-11.68v-64l-70.086-11.682c-3.418-12.060-8.198-23.544-14.192-34.266zM224 864c-35.348 0-64-28.654-64-64s28.652-64 64-64 64 28.654 64 64-28.652 64-64 64zM1024 384v-64l-67.382-12.25c-1.242-8.046-2.832-15.978-4.724-23.79l57.558-37.1-24.492-59.128-66.944 14.468c-4.214-6.91-8.726-13.62-13.492-20.13l39.006-56.342-45.256-45.254-56.342 39.006c-6.512-4.766-13.22-9.276-20.13-13.494l14.468-66.944-59.128-24.494-37.1 57.558c-7.812-1.892-15.744-3.482-23.79-4.724l-12.252-67.382h-64l-12.252 67.382c-8.046 1.242-15.976 2.832-23.79 4.724l-37.098-57.558-59.128 24.492 14.468 66.944c-6.91 4.216-13.62 8.728-20.13 13.494l-56.342-39.006-45.254 45.254 39.006 56.342c-4.766 6.51-9.278 13.22-13.494 20.13l-66.944-14.468-24.492 59.128 57.558 37.1c-1.892 7.812-3.482 15.742-4.724 23.79l-67.384 12.252v64l67.382 12.25c1.242 8.046 2.832 15.978 4.724 23.79l-57.558 37.1 24.492 59.128 66.944-14.468c4.216 6.91 8.728 13.618 13.494 20.13l-39.006 56.342 45.254 45.256 56.342-39.006c6.51 4.766 13.22 9.276 20.13 13.492l-14.468 66.944 59.128 24.492 37.102-57.558c7.81 1.892 15.742 3.482 23.788 4.724l12.252 67.384h64l12.252-67.382c8.044-1.242 15.976-2.832 23.79-4.724l37.1 57.558 59.128-24.492-14.468-66.944c6.91-4.216 13.62-8.726 20.13-13.492l56.342 39.006 45.256-45.256-39.006-56.342c4.766-6.512 9.276-13.22 13.492-20.13l66.944 14.468 24.492-59.13-57.558-37.1c1.892-7.812 3.482-15.742 4.724-23.79l67.382-12.25zM672 491.2c-76.878 0-139.2-62.322-139.2-139.2s62.32-139.2 139.2-139.2 139.2 62.322 139.2 139.2c0 76.878-62.32 139.2-139.2 139.2z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="home-text30 HeadingTwo">
+              <span class="home-text31">Expected Learning Outcomes</span>
+            </h2>
+            <span class="home-text34">
+              <span class="home-text35">
+                As one of the students enrolled in this course, you are expected that at the end 
+                of the semester you will be able to: 
+              </span>
+            </span>
+          </div>
+          <div class="home-container31">
+            <div class="home-container32">
+              <div class="home-container33"></div>
+              <div class="home-container34">
+                <br><br><br>
+                <h1 class="home-text36 HeadingOne">Learn Coding!</h1>
+                <br><br><br>
+              </div>
+            </div>
+            <div class="home-container35">
+              <div class="list-item-container">
+                <span>
+                  <span>
+                    1. develop specifications for a software development effort that precisely 
+                    articulate the functional requirements, and the explicit use of cutting edge or 
+                    emerging technologies;
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <span>
+                  <span>
+                    2. select and use a defined coding, documentation writing, and licensing 
+                    standards where coding idioms and mechanism for implementing designs to achieve 
+                    desired properties such as reliability, efficiency, and robustness are practiced with 
+                    respect to legal and ethical considerations; and 
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="home-divider"></div>
+          <div class="home-container36">
+            <div class="home-container37">
+              <div class="list-item-container">
+            
+                <span>
+                  <span>
+                    3. select and use a defined coding, documentation writing, and licensing 
+                      standards where coding idioms and mechanism for implementing designs to achieve 
+                      desired properties such as reliability, efficiency, and robustness are practiced with 
+                      respect to legal and ethical considerations; and 
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <span>
+                  <span>
+                    To realize the above-mentioned learning outcomes, it requires you to have a 
+                    high level of <b>responsibility, dedication and self-discipline.</b>  In this course, you 
+                    are responsible for your own work, progress, and grade in ways like studying your 
+                    modules diligently, accomplishing the activities and participating in whatever form 
+                    available, so that along the way, <b>WE</b>  will be able to <b>LEARN</b> together.
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+              
+              </div>
+            </div>
+            <div class="home-container38">
+              <div class="home-container39"></div>
+              <div class="home-container40">
+                <br><br><br>
+                <h1 class="home-text40 HeadingOne">Meet New Friends!</h1>
+                <br><br><br><br>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer-footer">
+          <div class="footer-container">
+            <div class="footer-container1">
+              <span class="footer-text">CS 103-Applications Development and Emerging Technologies Activity</span>
+              <span>Copyright © 2022 Creted by Mark Javen Cuevas</span>
+            </div>
+
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <span class="footer-text02 Large">North Luzon Philippines State College</span>
+                <span class="footer-text03 Large">San Nicolas, Candon City, Ilocos Sur</span>
+                <span class="footer-text04 Large">www.nlpsc.edu.ph ● nlpsc_candon@yahoo.com </span>
+                <span class="footer-text05 Large">Telefax 077-644-0210</span>
+              </div>
+            
+            </div>
+            
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="footer-image"
+          />
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
